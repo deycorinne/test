@@ -1,10 +1,10 @@
-const csv = require("csv-parser");
 const _ = require("lodash");
-const fs = require("fs");
 const assert = require("assert");
-const request = require("superagent");
 const colors = require("colors");
+const csv = require("csv-parser");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
+const fs = require("fs");
+const request = require("superagent");
 
 const csvFile = "7201-end";
 const messageV3Endpoint =
